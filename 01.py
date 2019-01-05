@@ -3638,7 +3638,7 @@ def bot(op):
                                     cl.sendText(receiver, str(e)
        
 #CLONE
-                        elif cmd.startswith("clone "):
+                        eli cmd.startswith("clone "):
                           if 'MENTION' in msg.contentMetadata.keys()!= None:
                                 names = re.findall(r'@(\w+)', text)
                                 mention = ast.literal_eval(msg.contentMetadata['MENTION'])
