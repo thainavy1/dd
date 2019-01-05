@@ -3636,6 +3636,62 @@ def bot(op):
                                     cl.sendImageWithURL(receiver, a)
                                 except Exception as e:
                                     cl.sendText(receiver, str(e)
+
+#CLONE
+                        elif cmd.startswith("clone "):
+                          if 'MENTION' in msg.contentMetadata.keys()!= None:
+                                names = re.findall(r'@(\w+)', text)
+                                mention = ast.literal_eval(msg.contentMetadata['MENTION'])
+                                mentionees = mention['MENTIONEES']
+                                lists = []
+                                for mention in mentionees:
+                                    if mention["M"] not in lists:
+                                        lists.append(mention["M"])
+                                for ls in lists:
+                                    cl.cloneContactProfile(ls)
+                                    cl.sendContact(to, sender)
+                                    cl.sendMessage(to, "➧ Berhasil clone profile")
+
+                        elif cmd == "restoreprofile":
+                            try:
+                                lineProfile = cl.getProfile()
+                                lineProfile.displayName = str(wait["myProfile"]["displayName"])
+                                lineProfile.statusMessage = str(wait["myProfile"]["statusMessage"])
+                                lineProfile.pictureStatus = str(wait["myProfile"]["pictureStatus"])
+                                cl.updateProfileAttribute(8, lineProfile.pictureStatus)
+                                cl.updateProfile(lineProfile)
+                                coverId = str(wait["myProfile"]["coverId"])
+                                cl.updateProfileCoverById(coverId)
+                                cl.sendMessage(to, "ʀᴇsᴛᴏʀᴇ ᴘʀᴏғɪʟᴇ sᴜᴄᴄᴇs, ᴡᴀɪᴛ ᴀ ғᴇᴡ ᴍɪɴᴜᴛᴇs")
+                            except Exception as e:
+                                cl.sendMessage(to, "ʀᴇsᴛᴏʀᴇ ᴘʀᴏғɪʟᴇ ғᴀɪʟᴇᴅ")
+
+                        elif cmd == "backupprofile":
+                            try:
+                                profile = cl.getProfile()
+                                wait["myProfile"]["displayName"] = str(profile.displayName)
+                                wait["myProfile"]["statusMessage"] = str(profile.statusMessage)
+                                wait["myProfile"]["pictureStatus"] = str(profile.pictureStatus)
+#                                coverId = ririn.getProfileDetail()["result"]["objectId"]
+#                                wait["myProfile"]["coverId"] = str(coverId)
+                                cl.sendMessage(to, "ʙᴀᴄᴋᴜᴘ ᴘʀᴏғɪʟᴇ sᴜᴄᴄᴇs")
+                            except Exception as e:
+                                cl.sendMessage(to, "ʙᴀᴄᴋᴜᴘ ᴘʀᴏғɪʟᴇ ғᴀɪʟᴇᴅ")
+
+                        elif ("Sticker: " in msg.text):
+                          if wait["selfbot"] == True:
+                            if msg._from in admin:
+                                try:
+                                    query = msg.text.replace("Sticker: ", "")
+                                    query = int(query)
+                                    if type(query) == int:
+                                        cl.sendImageWithURL(receiver, 'https://stickershop.line-scdn.net/stickershop/v1/product/'+str(query)+'/ANDROID/main.png')
+                                        cl.sendText(receiver, 'https://line.me/S/sticker/'+str(query))
+                                    else:
+                                        cl.sendText(receiver, 'gunakan key sticker angka bukan huruf')
+                                except Exception as e:
+                                    cl.sendText(receiver, str(e))
+
                         elif cmd == "รีบอท":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
