@@ -3637,19 +3637,7 @@ def bot(op):
                                 except Exception as e:
                                     cl.sendText(receiver, str(e)
 
-                        elif ("Sticker: " in msg.text):
-                          if wait["selfbot"] == True:
-                            if msg._from in admin:
-                                try:
-                                    query = msg.text.replace("Sticker: ", "")
-                                    query = int(query)
-                                    if type(query) == int:
-                                        cl.sendImageWithURL(receiver, 'https://stickershop.line-scdn.net/stickershop/v1/product/'+str(query)+'/ANDROID/main.png')
-                                        cl.sendText(receiver, 'https://line.me/S/sticker/'+str(query))
-                                    else:
-                                        cl.sendText(receiver, 'gunakan key sticker angka bukan huruf')
-                                except Exception as e:
-                                    cl.sendText(receiver, str(e))
+                  #--------------------------------------------------------------------#
 
                         elif cmd == "รีบอท":
                           if wait["selfbot"] == True:
