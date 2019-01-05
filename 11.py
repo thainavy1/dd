@@ -490,39 +490,30 @@ def help():
                   "🗡️" + key + "ออน\n" + \
                   "🗡️" + key + "ผู้สร้าง\n" + \
                   "🗡️" + key + "สปีด\n" + \
-                  "🔑❂͜͡➣ " + key + "Bot:on\off\n" + \
-                  "🔑❂͜͡➣ " + key + "Staff:on\off\n" + \
-                   "🔑❂͜͡➣" + key + "Admin on\off\n" + \
-                   "🔑❂͜͡➣" + key + "Refresh\n" + \
-                  "🔑❂͜͡➣ " + key + "Kibar\n" + \
-                  "🔑❂͜͡➣ " + key + "klinik\n" + \
-                  "🔑❂͜͡➣ " + key + "Masuk\n" + \
-                  "🔑❂͜͡➣ " + key + "Pulang/sᴘ\n" + \
-                  "🔑「✭Kunci Protect✭」\n" + \
-                  "🔑❂͜͡➣ " + key + "Antijs stay\n" + \
-                  "🔑❂͜͡➣ " + key + "Ghost in\n" + \
-                   "🔑❂͜͡➣" + key + "Dkbot\n" + \
-                   "🔑❂͜͡➣" + key + "Reinvite\n" + \
-                  "🔑❂͜͡➣ " + key + "Blc\n" + \
+                  "🗡️" + key + "คิกสปีดn" + \
+                  "🗡️" + key + "ล้างบางn" + \
+                  "🗡️" + key + "Admin on\off\n" + \
+                  "🗡️" + key + "Refresh\n" + \
+                  "🗡️" + key + "Kibar\n" + \
+                  "🗡️" + key + "klinik\n" + \
+                  "🗡️" + key + "Masuk\n" + \
+                  "🗡️" + key + "Pulang/sᴘ\n" + \
+                  "🗡️「🛡️Protect🛡️」\n" + \
+                  "🗡️" + key + "ปล่อยผี\n" + \
+                  "🗡️" + key + "ไล่ผี\n" + \
+                  "🗡️" + key + "Dkbot\n" + \
+                  "🗡️" + key + "Reinvite\n" + \
+                  "🗡️" + key + "Blc\n" + \
                   "🗡️" + key + "ล้างดำ\n" + \
-                  "🔑❂͜͡➣ " + key + "Adminadd @\n" + \
-                  "🔑❂͜͡➣ " + key + "Admindell @\n" + \
-                  "🔑❂͜͡➣ " + key + "protectkick on\off\n" + \
-                  "🔑❂͜͡➣ " + key + "protectjoin on\off\n" + \
-                   "🔑❂͜͡➣" + key + "protectinvite on\off\n" + \
-                   "🔑❂͜͡➣" + key + "protecturl on\off\n" + \
-                  "🔑❂͜͡➣ " + key + "Ghost on\off\n" + \
-                  "🔑❂͜͡➣ " + key + "Bot1,2,3,4up\n" + \
-                  "🔑❂͜͡➣ " + key + "Semua pro on\off\n" + \
-                  "🔑❂͜͡➣ " + key + "Antijs on\n" + \
-                  "🔑❂͜͡➣ " + key + "ᴋɪᴄᴋᴀʟʟᴍᴇᴍʙᴇʀ)\n" + \
-                  "🔑❂͜͡➣ " + key + "ʙʀᴏᴀᴅᴄᴀsᴛ:「ᴛᴇxᴛ」\n" + \
-                  "🔑❂͜͡➣ " + key + "sᴇᴛᴋᴇʏ「ɴᴇᴡ ᴋᴇʏ」 \n" + \
-                  "🔑❂͜͡➣ " + key + "ᴍʏᴋᴇʏ\n" + \
-                   "🔑❂͜͡➣" + key + "ʀᴇsᴇᴛᴋᴇʏ\n" + \
-                  "🔑❂͜͡➣ " + key + "ʀᴇғʀᴇsʜ\n" + \
-                  "👮❂͜͡➣ " + key + "Restart\n"+ \
-                  "🔑❂͜͡➣ [[DKBOT-LINE]]"
+                  "🗡️" + key + "protectkick on\off\n" + \
+                  "🗡️" + key + "protectjoin on\off\n" + \
+                   "🗡️" + key + "protectinvite on\off\n" + \
+                   "🗡️" + key + "protecturl on\off\n" + \
+                  "🗡️" + key + "Ghost on\off\n" + \
+                  "🗡️" + key + "Bot1,2,3,4up\n" + \
+                  "🗡️" + key + "Allprotect on\off\n" + \
+                  "🗡️" + key + "Antijs on\n" + \
+               
 
     return helpMessage
 
@@ -530,13 +521,11 @@ def help1():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage1 = "☢️" + key + " ☣️เมนู คำสั่ง1☣️\n" + \
-                  "🗡️" + key + "ᴛᴀɢᴀʟʟ/ɴᴀʜ\n" + \
-                  "🗡️" + key + "ɢɪɴғᴏ\n" + \
+                  "🗡️" + key + "แทค/../.\n" + \
                   "🗡️" + key + "เปิดลิ้ง\n" + \
                   "🗡️" + key + "ปิดลิ้ง\n" + \
                   "🗡️" + key + "ลิ้ง\n" + \
-                  "🗡️" + key + "ɢʀᴜᴘʟɪsᴛ\n" + \
-                  "🗡️" + key + "Kibar\n" + \
+                  "🗡️" + key + "เชคกลุ่ม\n" + \
                   "🗡️" + key + "Dkbot\n" + \
                   "🗡️" + key + "Harga\n" + \
                   "🗡️" + key + "Promo\n" + \
@@ -3452,7 +3441,7 @@ def bot(op):
                                 zx = ""
                                 zxc = ""
                                 zx2 = []
-                                xpesan =  "「My Name 'S」\n• User : "
+                                xpesan =  "「ชื่อ 'S」\n• เจ้าของ : "
                                 ret_ = str(helpMessage)
                                 ry = str(ryan.displayName)
                                 pesan = ''
@@ -3473,7 +3462,7 @@ def bot(op):
                                 zx = ""
                                 zxc = ""
                                 zx2 = []
-                                xpesan =  "「MY Name 'S」\n• User : "
+                                xpesan =  "「ชื่อ 'S」\n• เจ้าของ : "
                                 ret_ = str(helpMessage1)
                                 ry = str(ryan.displayName)
                                 pesan = ''
@@ -3494,7 +3483,7 @@ def bot(op):
                                 zx = ""
                                 zxc = ""
                                 zx2 = []
-                                xpesan =  "「MY Nme 'S」\n• User : "
+                                xpesan =  "「ชื่อ 'S」\n• เจ้าของ : "
                                 ret_ = str(helpMessage2)
                                 ry = str(ryan.displayName)
                                 pesan = ''
@@ -3515,7 +3504,7 @@ def bot(op):
                                 zx = ""
                                 zxc = ""
                                 zx2 = []
-                                xpesan =  "「MY Name 'S」\n• User : "
+                                xpesan =  "「ชื่อ 'S」\n• เจ้าของ : "
                                 ret_ = str(helpMessage3)
                                 ry = str(ryan.displayName)
                                 pesan = ''
@@ -4157,7 +4146,7 @@ def bot(op):
                             except Exception as e:
                                 cl.sendMessage(to, str(e))
 
-                        elif cmd == "gruplist":
+                        elif cmd == "เชคกลุ่ม":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                ma = ""
@@ -4168,7 +4157,7 @@ def bot(op):
                                    a = a + 1
                                    end = "\n"
                                    ma += "╠ " + str(a) + ". " +G.name+ "\n"
-                               cl.sendMessage(msg.to,"╔══[ GROUP LIST ]\n║\n"+ma+"║\n╚══[ Total「"+str(len(gid))+"」Groups ]")
+                               cl.sendMessage(msg.to,"╔══[ เชคกลุ่ม ]\n║\n"+ma+"║\n╚══[ ทั้งหมด「"+str(len(gid))+"」กลุ่ม ]")
 
                         elif cmd == "gruplist1":
                             if msg._from in admin:
@@ -4806,6 +4795,30 @@ def bot(op):
                                            random.choice(ABC).kickoutFromGroup(msg.to, [target])
                                        except:
                                            pass
+                                           
+                        elif cmd == "ล้างบาง":
+                          if wait["selfbot"] == True:
+                            if msg._from in admin:
+                                if msg.toType == 2:
+                                  if wait["Kickallmember"] == True:
+                                    _name = msg.text.replace("Kickall","")
+                                    gs = cl.getGroup(msg.to)
+                                    targets = []
+                                    for g in gs.members:
+                                        if _name in g.displayName:
+                                            targets.append(g.mid)
+                                    if targets == []:
+                                        cl.sendMessage(msg.to,"Target not found.")
+                                    else:
+                                       for target in targets:
+                                         if target not in Bots and target not in Saints:
+                                           try:
+                                               klist=[cl,ki,kk,kc,kb,kd]
+                                               kicker=random.choice(klist)
+                                               kicker.kickoutFromGroup(msg.to,[target])
+                                           except Exception as error:
+                                               cl.sendMessage(msg.to, str(error))    
+                                           
                         elif cmd == "dk.reinvite":
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
@@ -5118,7 +5131,7 @@ def bot(op):
 #===========BOT UPDATE============#
 
 #===========BOT UPDATE============#
-                        elif msg.text in ["Cipok","Tagall","Desah","Emuach","Assalamualaikum","Pagi","Siang","Sore","Malam","Nah","All"]:
+                        elif msg.text in ["แทค","..","."]:
                                if wait["selfbot"] == True:
                                 if msg._from in admin:
                                  group = cl.getGroup(msg.to)
@@ -5147,7 +5160,6 @@ def bot(op):
 
                         elif cmd == "listadmin":
                           if wait["selfbot"] == True:
-                            if msg._from in admin:
                                 ma = ""
                                 mb = ""
                                 mc = ""
@@ -5191,9 +5203,42 @@ def bot(op):
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                start = time.time()
-                               sendMention(msg.to, sender, "「 Selfbot Speed 」\n• User ", "")
+                               sendMention(msg.to, sender, "「 ทดสอบความเร็ว... 」\n• เจ้าของ ", "")
                                elapsed_time = time.time() - start
-                               cl.sendMessage(msg.to, "{} detik".format(str(elapsed_time)))
+                               cl.sendMessage(msg.to, "{} 🚀".format(str(elapsed_time)))
+                               
+                        elif cmd == "คิกสปีด":
+                            if msg._from in admin:
+                                start = time.time()
+                                sw.sendText("u923fca3dc907e047572ad25c24f1d29b", '.')
+                                elapsed_time = time.time() - start
+                                cl.sendText(msg.to, "%s" % (elapsed_time))
+                                
+                                start2 = time.time()
+                                sw.sendText("u923fca3dc907e047572ad25c24f1d29b", '.')
+                                elapsed_time = time.time() - start2
+                                ki.sendText(msg.to, "%s" % (elapsed_time))
+                                
+                                start3 = time.time()
+                                sw.sendText("u923fca3dc907e047572ad25c24f1d29b", '.')
+                                elapsed_time = time.time() - start3
+                                kk.sendText(msg.to, "%s" % (elapsed_time))
+                                
+                                start4 = time.time()
+                                sw.sendMessage("u923fca3dc907e047572ad25c24f1d29b", '.')
+                                elapsed_time = time.time() - start4
+                                kc.sendText(msg.to, "%s" % (elapsed_time))
+                                
+                                start5 = time.time()
+                                sw.sendText("u923fca3dc907e047572ad25c24f1d29b", '.')
+                                elapsed_time = time.time() - start5
+                                kb.sendText(msg.to, "%s" % (elapsed_time)) 
+                                
+                                start6 = time.time()
+                                sw.sendText("u923fca3dc907e047572ad25c24f1d29b", '.')
+                                elapsed_time = time.time() - start6
+                                kd.sendText(msg.to, "%s" % (elapsed_time)) 
+                                
                                 
                         elif cmd == "lurking on":
                           if wait["selfbot"] == True:
