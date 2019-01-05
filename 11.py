@@ -3637,32 +3637,6 @@ def bot(op):
                                 except Exception as e:
                                     cl.sendText(receiver, str(e)
 
-                        elif cmd == "restoreprofile":
-                            try:
-                                lineProfile = cl.getProfile()
-                                lineProfile.displayName = str(wait["myProfile"]["displayName"])
-                                lineProfile.statusMessage = str(wait["myProfile"]["statusMessage"])
-                                lineProfile.pictureStatus = str(wait["myProfile"]["pictureStatus"])
-                                cl.updateProfileAttribute(8, lineProfile.pictureStatus)
-                                cl.updateProfile(lineProfile)
-                                coverId = str(wait["myProfile"]["coverId"])
-                                cl.updateProfileCoverById(coverId)
-                                cl.sendMessage(to, "ʀᴇsᴛᴏʀᴇ ᴘʀᴏғɪʟᴇ sᴜᴄᴄᴇs, ᴡᴀɪᴛ ᴀ ғᴇᴡ ᴍɪɴᴜᴛᴇs")
-                            except Exception as e:
-                                cl.sendMessage(to, "ʀᴇsᴛᴏʀᴇ ᴘʀᴏғɪʟᴇ ғᴀɪʟᴇᴅ")
-
-                        elif cmd == "backupprofile":
-                            try:
-                                profile = cl.getProfile()
-                                wait["myProfile"]["displayName"] = str(profile.displayName)
-                                wait["myProfile"]["statusMessage"] = str(profile.statusMessage)
-                                wait["myProfile"]["pictureStatus"] = str(profile.pictureStatus)
-#                                coverId = ririn.getProfileDetail()["result"]["objectId"]
-#                                wait["myProfile"]["coverId"] = str(coverId)
-                                cl.sendMessage(to, "ʙᴀᴄᴋᴜᴘ ᴘʀᴏғɪʟᴇ sᴜᴄᴄᴇs")
-                            except Exception as e:
-                                cl.sendMessage(to, "ʙᴀᴄᴋᴜᴘ ᴘʀᴏғɪʟᴇ ғᴀɪʟᴇᴅ")
-
                         elif ("Sticker: " in msg.text):
                           if wait["selfbot"] == True:
                             if msg._from in admin:
