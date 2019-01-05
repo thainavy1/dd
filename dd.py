@@ -594,8 +594,8 @@ def bot(op):
     try:
         if op.type == 0:
             return
-
      
+        
         if op.type == 11:
             if op.param1 in protectqr:
                 try:
@@ -633,8 +633,152 @@ def bot(op):
                             X = ki.getGroup(op.param1)
                             X.preventedJoinByTicket = True
                             ki.updateGroup(X)
-                   except:
-                       pass
+                    except:
+                        try:
+                            if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                                G = kk.getGroup(op.param1)
+                                G.preventedJoinByTicket = False
+                                kk.updateGroup(G)
+                                invsend = 0
+                                Ticket = kk.reissueGroupTicket(op.param1)
+                                sw.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                kj.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                random.choice(GHOST).kickoutFromGroup(op.param1,[op.param2])
+                                wait["blacklist"][op.param2] = True
+                                sw.sendMessage(op.param1,"Wah kiker tempe main kick orang minta di hajar")
+                                sw.leaveGroup(op.param1)
+                                kj.leaveGroup(op.param1)
+                                X = kk.getGroup(op.param1)
+                                X.preventedJoinByTicket = True
+                                kk.updateGroup(X)
+                        except:
+                            try:
+                                if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                                    G = kc.getGroup(op.param1)
+                                    G.preventedJoinByTicket = False
+                                    kc.updateGroup(G)
+                                    invsend = 0
+                                    Ticket = kc.reissueGroupTicket(op.param1)
+                                    sw.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                    kj.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                    random.choice(GHOST).kickoutFromGroup(op.param1,[op.param2])
+                                    wait["blacklist"][op.param2] = True
+                                    sw.sendMessage(op.param1,"Wah kiker tempe main kick orang minta di hajar")
+                                    sw.leaveGroup(op.param1)
+                                    kj.leaveGroup(op.param1)
+                                    X = kc.getGroup(op.param1)
+                                    X.preventedJoinByTicket = True
+                                    kc.updateGroup(X)
+                            except:
+                                try:
+                                    if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                                        G = kb.getGroup(op.param1)
+                                        G.preventedJoinByTicket = False
+                                        kb.updateGroup(G)
+                                        invsend = 0
+                                        Ticket = kb.reissueGroupTicket(op.param1)
+                                        sw.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                        kj.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                        random.choice(GHOST).kickoutFromGroup(op.param1,[op.param2])
+                                        wait["blacklist"][op.param2] = True
+                                        sw.sendMessage(op.param1,"Wah kiker tempe main kick orang minta di hajar")
+                                        sw.leaveGroup(op.param1)
+                                        kj.leaveGroup(op.param1)
+                                        X = kb.getGroup(op.param1)
+                                        X.preventedJoinByTicket = True
+                                        kb.updateGroup(X)
+                                except:
+                                    try:
+                                        if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                                            G = kd.getGroup(op.param1)
+                                            G.preventedJoinByTicket = False
+                                            kd.updateGroup(G)
+                                            invsend = 0
+                                            Ticket = kd.reissueGroupTicket(op.param1)
+                                            sw.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                            kj.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                            random.choice(GHOST).kickoutFromGroup(op.param1,[op.param2])
+                                            wait["blacklist"][op.param2] = True
+                                            sw.sendMessage(op.param1,"Terdeteksi Kicker,Maaf anda melangar")
+                                            sw.leaveGroup(op.param1)
+                                            kj.leaveGroup(op.param1)
+                                            X = kd.getGroup(op.param1)
+                                            X.preventedJoinByTicket = True
+                                            kd.updateGroup(X)
+                                    except:
+                                        try:
+                                            if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                                                G = ke.getGroup(op.param1)
+                                                G.preventedJoinByTicket = False
+                                                ke.updateGroup(G)
+                                                invsend = 0
+                                                Ticket = ke.reissueGroupTicket(op.param1)
+                                                sw.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                                kj.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                                random.choice(GHOST).kickoutFromGroup(op.param1,[op.param2])
+                                                wait["blacklist"][op.param2] = True
+                                                sw.sendMessage(op.param1,"Terdeteksi kicker\nMaaf anda mepanggar")
+                                                sw.leaveGroup(op.param1)
+                                                kj.leaveGroup(op.param1)
+                                                X = ke.getGroup(op.param1)
+                                                X.preventedJoinByTicket = True
+                                                ke.updateGroup(X)
+                                        except:
+                                            try:
+                                                if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                                                    G = kf.getGroup(op.param1)
+                                                    G.preventedJoinByTicket = False
+                                                    kf.updateGroup(G)
+                                                    invsend = 0
+                                                    Ticket = kf.reissueGroupTicket(op.param1)
+                                                    sw.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                                    kj.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                                    random.choice(GHOST).kickoutFromGroup(op.param1,[op.param2])
+                                                    wait["blacklist"][op.param2] = True
+                                                    sw.sendMessage(op.param1,"Wah kiker tempe main kick orang minta di hajar")
+                                                    sw.leaveGroup(op.param1)
+                                                    kj.leaveGroup(op.param1)
+                                                    X = kf.getGroup(op.param1)
+                                                    X.preventedJoinByTicket = True
+                                                    kf.updateGroup(X)      
+                                            except:
+                                                try:
+                                                    if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                                                        G = ki.getGroup(op.param1)
+                                                        G.preventedJoinByTicket = False
+                                                        ki.updateGroup(G)
+                                                        invsend = 0
+                                                        Ticket = ki.reissueGroupTicket(op.param1)
+                                                        sw.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                                        kj.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                                        random.choice(GHOST).kickoutFromGroup(op.param1,[op.param2])
+                                                        wait["blacklist"][op.param2] = True
+                                                        sw.sendMessage(op.param1,"Wah kiker tempe main kick orang minta di hajar")
+                                                        sw.leaveGroup(op.param1)
+                                                        kj.leaveGroup(op.param1)
+                                                        X = ki.getGroup(op.param1)
+                                                        X.preventedJoinByTicket = True
+                                                        ki.updateGroup(X)  
+                                                except:
+                                                    try:
+                                                        if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                                                            G = kh.getGroup(op.param1)
+                                                            G.preventedJoinByTicket = False
+                                                            kh.updateGroup(G)
+                                                            invsend = 0
+                                                            Ticket = kh.reissueGroupTicket(op.param1)
+                                                            sw.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                                            kj.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                                            random.choice(GHOST).kickoutFromGroup(op.param1,[op.param2])
+                                                            wait["blacklist"][op.param2] = True
+                                                            sw.sendMessage(op.param1,"Wah kiker tempe main kick orang minta di hajar")
+                                                            sw.leaveGroup(op.param1)
+                                                            kj.leaveGroup(op.param1)
+                                                            X = kh.getGroup(op.param1)
+                                                            X.preventedJoinByTicket = True
+                                                            kh.updateGroup(X)     
+                                                    except:
+                                                        pass                 
     if op.type == 13:
             if mid in op.param3:
                 if wait["autoLeave"] == True:
@@ -926,7 +1070,7 @@ def bot(op):
                     random.choice(ABC).kickoutFromGroup(op.param1,[op.param2])
                 else:
                 	pass
-
+      
         if op.type == 13:
             if op.param1 in protectinvite:
                 try:
@@ -964,9 +1108,152 @@ def bot(op):
                             X = ki.getGroup(op.param1)
                             X.preventedJoinByTicket = True
                             ki.updateGroup(X)
-                   except:
-                       pass
-  
+                    except:
+                        try:
+                            if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                                G = kk.getGroup(op.param1)
+                                G.preventedJoinByTicket = False
+                                kk.updateGroup(G)
+                                invsend = 0
+                                Ticket = kk.reissueGroupTicket(op.param1)
+                                sw.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                kj.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                random.choice(GHOST).kickoutFromGroup(op.param1,[op.param2])
+                                wait["blacklist"][op.param2] = True
+                                sw.sendMessage(op.param1,"Wah kiker tempe main kick orang minta di hajar")
+                                sw.leaveGroup(op.param1)
+                                kj.leaveGroup(op.param1)
+                                X = kk.getGroup(op.param1)
+                                X.preventedJoinByTicket = True
+                                kk.updateGroup(X)
+                        except:
+                            try:
+                                if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                                    G = kc.getGroup(op.param1)
+                                    G.preventedJoinByTicket = False
+                                    kc.updateGroup(G)
+                                    invsend = 0
+                                    Ticket = kc.reissueGroupTicket(op.param1)
+                                    sw.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                    kj.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                    random.choice(GHOST).kickoutFromGroup(op.param1,[op.param2])
+                                    wait["blacklist"][op.param2] = True
+                                    sw.sendMessage(op.param1,"Wah kiker tempe main kick orang minta di hajar")
+                                    sw.leaveGroup(op.param1)
+                                    kj.leaveGroup(op.param1)
+                                    X = kc.getGroup(op.param1)
+                                    X.preventedJoinByTicket = True
+                                    kc.updateGroup(X)
+                            except:
+                                try:
+                                    if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                                        G = kb.getGroup(op.param1)
+                                        G.preventedJoinByTicket = False
+                                        kb.updateGroup(G)
+                                        invsend = 0
+                                        Ticket = kb.reissueGroupTicket(op.param1)
+                                        sw.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                        kj.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                        random.choice(GHOST).kickoutFromGroup(op.param1,[op.param2])
+                                        wait["blacklist"][op.param2] = True
+                                        sw.sendMessage(op.param1,"Wah kiker tempe main kick orang minta di hajar")
+                                        sw.leaveGroup(op.param1)
+                                        kj.leaveGroup(op.param1)
+                                        X = kb.getGroup(op.param1)
+                                        X.preventedJoinByTicket = True
+                                        kb.updateGroup(X)
+                                except:
+                                    try:
+                                        if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                                            G = kd.getGroup(op.param1)
+                                            G.preventedJoinByTicket = False
+                                            kd.updateGroup(G)
+                                            invsend = 0
+                                            Ticket = kd.reissueGroupTicket(op.param1)
+                                            sw.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                            kj.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                            random.choice(GHOST).kickoutFromGroup(op.param1,[op.param2])
+                                            wait["blacklist"][op.param2] = True
+                                            sw.sendMessage(op.param1,"Terdeteksi Kicker,Maaf anda melangar")
+                                            sw.leaveGroup(op.param1)
+                                            kj.leaveGroup(op.param1)
+                                            X = kd.getGroup(op.param1)
+                                            X.preventedJoinByTicket = True
+                                            kd.updateGroup(X)
+                                    except:
+                                        try:
+                                            if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                                                G = ke.getGroup(op.param1)
+                                                G.preventedJoinByTicket = False
+                                                ke.updateGroup(G)
+                                                invsend = 0
+                                                Ticket = ke.reissueGroupTicket(op.param1)
+                                                sw.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                                kj.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                                random.choice(GHOST).kickoutFromGroup(op.param1,[op.param2])
+                                                wait["blacklist"][op.param2] = True
+                                                sw.sendMessage(op.param1,"Terdeteksi kicker\nMaaf anda mepanggar")
+                                                sw.leaveGroup(op.param1)
+                                                kj.leaveGroup(op.param1)
+                                                X = ke.getGroup(op.param1)
+                                                X.preventedJoinByTicket = True
+                                                ke.updateGroup(X)
+                                        except:
+                                            try:
+                                                if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                                                    G = kf.getGroup(op.param1)
+                                                    G.preventedJoinByTicket = False
+                                                    kf.updateGroup(G)
+                                                    invsend = 0
+                                                    Ticket = kf.reissueGroupTicket(op.param1)
+                                                    sw.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                                    kj.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                                    random.choice(GHOST).kickoutFromGroup(op.param1,[op.param2])
+                                                    wait["blacklist"][op.param2] = True
+                                                    sw.sendMessage(op.param1,"Wah kiker tempe main kick orang minta di hajar")
+                                                    sw.leaveGroup(op.param1)
+                                                    kj.leaveGroup(op.param1)
+                                                    X = kf.getGroup(op.param1)
+                                                    X.preventedJoinByTicket = True
+                                                    kf.updateGroup(X)      
+                                            except:
+                                                try:
+                                                    if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                                                        G = ki.getGroup(op.param1)
+                                                        G.preventedJoinByTicket = False
+                                                        ki.updateGroup(G)
+                                                        invsend = 0
+                                                        Ticket = ki.reissueGroupTicket(op.param1)
+                                                        sw.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                                        kj.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                                        random.choice(GHOST).kickoutFromGroup(op.param1,[op.param2])
+                                                        wait["blacklist"][op.param2] = True
+                                                        sw.sendMessage(op.param1,"Wah kiker tempe main kick orang minta di hajar")
+                                                        sw.leaveGroup(op.param1)
+                                                        kj.leaveGroup(op.param1)
+                                                        X = ki.getGroup(op.param1)
+                                                        X.preventedJoinByTicket = True
+                                                        ki.updateGroup(X)  
+                                                except:
+                                                    try:
+                                                        if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                                                            G = kh.getGroup(op.param1)
+                                                            G.preventedJoinByTicket = False
+                                                            kh.updateGroup(G)
+                                                            invsend = 0
+                                                            Ticket = kh.reissueGroupTicket(op.param1)
+                                                            sw.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                                            kj.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                                            random.choice(GHOST).kickoutFromGroup(op.param1,[op.param2])
+                                                            wait["blacklist"][op.param2] = True
+                                                            sw.sendMessage(op.param1,"Wah kiker tempe main kick orang minta di hajar")
+                                                            sw.leaveGroup(op.param1)
+                                                            kj.leaveGroup(op.param1)
+                                                            X = kh.getGroup(op.param1)
+                                                            X.preventedJoinByTicket = True
+                                                            kh.updateGroup(X)     
+                                                    except:
+                                                        pass
         if op.type == 17:
             if op.param2 in wait["blacklist"]:
                 random.choice(ABC).kickoutFromGroup(op.param1,[op.param2])
