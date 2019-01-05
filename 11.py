@@ -3636,13 +3636,6 @@ def bot(op):
                                     cl.sendImageWithURL(receiver, a)
                                 except Exception as e:
                                     cl.sendText(receiver, str(e)
-
-                  #--------------------------------------------------------------------#
-
-                  
-
-
-
                         elif cmd == "รีบอท":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
