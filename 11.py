@@ -483,37 +483,28 @@ def help():
     helpMessage = "☢️" + key + " [🇹🇭BOT PROTECT THAILAND]\n" + \
                   "🗡️" + key + "คำสั่ง1\n" + \
                   "🗡️" + key + "คำสั่ง2\n" + \
-                   "🗡️" + key + "คำสั่ง3\n" + \
+                  "🗡️" + key + "คำสั่ง3\n" + \
                   "🗡️" + key + "เทส\n" + \
                   "🗡️" + key + "รีบอท\n" + \
                   "🗡️" + key + "สถานะ\n" + \
                   "🗡️" + key + "ออน\n" + \
                   "🗡️" + key + "ผู้สร้าง\n" + \
                   "🗡️" + key + "สปีด\n" + \
-                  "🗡️" + key + "คิกสปีดn" + \
-                  "🗡️" + key + "ล้างบางn" + \
-                  "🗡️" + key + "Admin on\off\n" + \
-                  "🗡️" + key + "Refresh\n" + \
-                  "🗡️" + key + "Kibar\n" + \
-                  "🗡️" + key + "klinik\n" + \
-                  "🗡️" + key + "Masuk\n" + \
-                  "🗡️" + key + "Pulang/sᴘ\n" + \
+                  "🗡️" + key + "คิกสปีด\n" + \
+                  "🗡️" + key + "ล้างบาง\n" + \
                   "🗡️「🛡️Protect🛡️」\n" + \
                   "🗡️" + key + "ปล่อยผี\n" + \
                   "🗡️" + key + "ไล่ผี\n" + \
-                  "🗡️" + key + "Dkbot\n" + \
-                  "🗡️" + key + "Reinvite\n" + \
-                  "🗡️" + key + "Blc\n" + \
+                  "🗡️" + key + "คิก\n" + \
                   "🗡️" + key + "ล้างดำ\n" + \
                   "🗡️" + key + "protectkick on\off\n" + \
                   "🗡️" + key + "protectjoin on\off\n" + \
-                   "🗡️" + key + "protectinvite on\off\n" + \
-                   "🗡️" + key + "protecturl on\off\n" + \
+                  "🗡️" + key + "protectinvite on\off\n" + \
+                  "🗡️" + key + "protecturl on\off\n" + \
                   "🗡️" + key + "Ghost on\off\n" + \
-                  "🗡️" + key + "Bot1,2,3,4up\n" + \
                   "🗡️" + key + "Allprotect on\off\n" + \
                   "🗡️" + key + "Antijs on\n" + \
-               
+                  "🇹🇭Bot Protect Thailand"
 
     return helpMessage
 
@@ -526,30 +517,10 @@ def help1():
                   "🗡️" + key + "ปิดลิ้ง\n" + \
                   "🗡️" + key + "ลิ้ง\n" + \
                   "🗡️" + key + "เชคกลุ่ม\n" + \
-                  "🗡️" + key + "Dkbot\n" + \
-                  "🗡️" + key + "Harga\n" + \
-                  "🗡️" + key + "Promo\n" + \
-                  "🗡️" + key + "ɪɴғᴏɢʀᴜᴘ「ɴᴏᴍᴇʀ」\n" + \
-                  "🗡️" + key + "ɪɴғᴏᴍᴇᴍ「ɴᴏᴍᴇʀ」\n" + \
-                  "🗡️" + key + "ʀᴇᴍᴏᴠᴇ ᴄʜᴀᴛ\n" + \
                   "🗡️" + key + "ไอดี @\n" + \
-                  "🗡️" + key + "sᴛᴇᴀʟ「@」\n" + \
-                  "🗡️" + key + "ก๊อป @\n" + \
                   "🗡️" + key + "ดึง @\n" + \
-                  "🗡️" + key + "ʀᴇsᴛᴏʀᴇ\n" + \
-                  "🗡️" + key + "ʙᴀᴄᴋᴜᴘ\n" + \
-                  "🗡️" + key + "ʀᴇᴊᴇᴄᴛ\n" + \
-                  "🗡️" + key + "sᴘᴀᴍᴄᴀʟʟᴛᴏ 「ᴊᴜᴍʟᴀʜ」 「@」\n" + \
-                  "🗡️" + key + "sᴘᴀᴍᴛᴀɢ:「ᴊᴜᴍʟᴀʜɴʏᴀ」\n" + \
-                  "🗡️" + key + "sᴘᴀᴍᴛᴀɢ「@」\n" + \
-                  "🗡️" + key + "sᴘᴀᴍᴄᴀʟʟ:「ᴊᴜᴍʟᴀʜɴʏᴀ」\n" + \
-                   "🗡️" + key + "sᴘᴀᴍᴄᴀʟʟ\n" + \
-                   "🗡️" + key + "ᴍʏɴᴀᴍᴇ:「ɴᴀᴍᴀ」\n" + \
-                   "🗡️" + key + "ᴄᴘᴘ「ᴋɪʀɪᴍ ғᴏᴛᴏɴʏᴀ」\n" + \
-                   "🗡️" + key + "ᴄᴠᴘ 「ᴋɪʀɪᴍ ᴠɪᴅᴇᴏɴʏᴀ」\n" + \
-                   "🗡️" + key + "ᴜᴘᴅᴀᴛᴇɢʀᴜᴘ\n" + \
-                   "🗡️" + key + "ɢɪғᴛ:「ᴍɪᴅ ᴋᴏʀʙᴀɴ」「ᴊᴜᴍʟᴀʜ」\n" + \
-                   "🗡️" + key + "sᴘᴀᴍ:「ᴍɪᴅ ᴋᴏʀʙᴀɴ」「ᴊᴜᴍʟᴀʜ」\n" + \
+                  "🗡️" + key + "ก๊อป @\n" + \
+                  "🗡️" + key + "รันคอล จำนวน @\n" + \
                    "🇹🇭  Bot Protect Thailand \n" + \
                    "  ผู้สร้าง: id line  younavy  "
                   
@@ -558,33 +529,12 @@ def help1():
 def help2():
     key = Setmain["keyCommand"]
     key = key.title()
-    helpMessage2= "      「✭PENGATURAN JBP✭」\n" + \
-                  "「🔑」 " + key + "ɪɴᴠɪᴛᴇ「ᴏɴ/ᴏғғ」\n" + \
-                  "「🔑」 " + key + "sᴛɪᴄᴋᴇʀ「ᴏɴ/ᴏғғ」\n" + \
-                  "「🔑」 " + key + "ᴜɴsᴇɴᴅ「ᴏɴ/ᴏғғ」\n" + \
-                  "「🔑」 " + key + "sɪᴅᴇʀ「ᴏɴ/ᴏғғ」\n" + \
-                  "「🔑」 " + key + "ʀᴇsᴘᴏɴ「ᴏɴ/ᴏғғ」\n" + \
-                  "「🔑」 " + key + "ᴛɪᴍᴇʟɪɴᴇ「ᴏɴ/ᴏғғ」\n" + \
+    helpMessage2= "      ☣️เมนู คำสั่ง2☣️\n" + \
                   "🗡️" + key + "เปิดเข้า/ปิดเข้า\n" + \
                   "🗡️" + key + "เปิดบล็อค/ปิดบล็อค\n" + \
-                  "「🔑」 " + key + "ᴀᴜᴛᴏᴀᴅᴅ「ᴏɴ/ᴏғғ」\n" + \
-                  "「🔑]  " + key + "ᴡᴇʟᴄᴏᴍᴇ「ᴏɴ/ᴏғғ」\n" + \
-                  "「🔑]  " + key + "ᴀᴜᴛᴏʟᴇᴀᴠᴇ「ᴏɴ/ᴏғғ」\n" + \
+                  "🗡️" + key + "เปิดแทคเตะ/ปิดแทคเตะ\n" + \
                   "🗡️" + key + "เปิดมุด/ปิดมุด\n" + \
-                  "「🔑] " + key + "ᴄᴇᴋ sɪᴅᴇʀ\n" + \
-                  "「🔑] " + key + "ᴄᴇᴋ sᴘᴀᴍ\n" + \
-                  "「🔑] " + key + "ᴄᴇᴋ ᴘᴇsᴀɴ  \n" + \
-                  "「🔑] " + key + "ᴄᴇᴋ ʀᴇsᴘᴏɴ \n" + \
-                  "「🔑] " + key + "ᴄᴇᴋ ʟᴇᴀᴠᴇ\n" + \
-                  "「🔑] " + key + "ᴄᴇᴋ ᴡᴇʟᴄᴏᴍᴇ\n" + \
-                  "「🔑] " + key + "sᴇᴛ sɪᴅᴇʀ:「ᴛᴇxᴛ」\n" + \
-                  "「🔑] " + key + "sᴇᴛ sᴘᴀᴍ:「ᴛᴇxᴛ」」\n" + \
-                  "「🔑] " + key + "sᴇᴛ ᴘᴇsᴀɴ:「ᴛᴇxᴛ」\n" + \
-                  "「🔑] " + key + "sᴇᴛ ʀᴇsᴘᴏɴ:「ᴛᴇxᴛ」\n" + \
-                  "「🔑] " + key + "sᴇᴛ ʟᴇᴀᴠᴇ:「ᴛᴇxᴛ」\n" + \
-                  "「🔑] " + key + "sᴇᴛ ᴡᴇʟᴄᴏᴍᴇ:「ᴛᴇxᴛ」\n" + \
-                  " [🔑DKBOT-LINE]🕸 ⃢   ⟗\n" + \
-                  "🔑Creator:  line.me/ti/p/~reza.p.i.p"
+                  "🇹🇭Bot Protect Thailand"
 
     return helpMessage2
 
@@ -3441,7 +3391,7 @@ def bot(op):
                                 zx = ""
                                 zxc = ""
                                 zx2 = []
-                                xpesan =  "「ชื่อ 'S」\n• เจ้าของ : "
+                                xpesan =  "「ชื่อ 」\n• เจ้าของ : "
                                 ret_ = str(helpMessage)
                                 ry = str(ryan.displayName)
                                 pesan = ''
@@ -3462,7 +3412,7 @@ def bot(op):
                                 zx = ""
                                 zxc = ""
                                 zx2 = []
-                                xpesan =  "「ชื่อ 'S」\n• เจ้าของ : "
+                                xpesan =  "「ชื่อ 」\n• เจ้าของ : "
                                 ret_ = str(helpMessage1)
                                 ry = str(ryan.displayName)
                                 pesan = ''
@@ -3483,7 +3433,7 @@ def bot(op):
                                 zx = ""
                                 zxc = ""
                                 zx2 = []
-                                xpesan =  "「ชื่อ 'S」\n• เจ้าของ : "
+                                xpesan =  "「ชื่อ 」\n• เจ้าของ : "
                                 ret_ = str(helpMessage2)
                                 ry = str(ryan.displayName)
                                 pesan = ''
@@ -3504,7 +3454,7 @@ def bot(op):
                                 zx = ""
                                 zxc = ""
                                 zx2 = []
-                                xpesan =  "「ชื่อ 'S」\n• เจ้าของ : "
+                                xpesan =  "「ชื่อ 」\n• เจ้าของ : "
                                 ret_ = str(helpMessage3)
                                 ry = str(ryan.displayName)
                                 pesan = ''
@@ -3651,7 +3601,7 @@ def bot(op):
                         elif text.lower() == "ไอดี":
                                cl.sendMessage(msg.to, msg._from)
 
-                        elif cmd.startswith("mid "):
+                        elif cmd.startswith("ไอดี "):
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                key = eval(msg.contentMetadata["MENTION"])
@@ -3660,14 +3610,14 @@ def bot(op):
                                cl.sendMessage(msg.to, "Nama : "+str(mi.displayName)+"\nไอดี : " +key1)
                                cl.sendMessage(msg.to, None, contentMetadata={'mid': key1}, contentType=13)
 
-                        elif ("Steal " in msg.text):
+                        elif ("ดึง " in msg.text):
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                key = eval(msg.contentMetadata["MENTION"])
                                key1 = key["MENTIONEES"][0]["M"]
                                mi = cl.getContact(key1)
                                a = channel.getProfileCoverURL(mid=key1)
-                               cl.sendMessage(msg.to, "「 Contact Info 」\n• Nama : "+str(mi.displayName)+"\n• Mid : " +key1+"\n• Status Msg"+str(mi.statusMessage))
+                               cl.sendMessage(msg.to, "「 ข้อมูล 」\n• ชื่อ : "+str(mi.displayName)+"\n• ไอดี : " +key1+"\n• สถานะ"+str(mi.statusMessage))
                                cl.sendMessage(msg.to, None, contentMetadata={'mid': key1}, contentType=13)
                                if "videoProfile='{" in str(cl.getContact(key1)):
                                    cl.sendVideoWithURL(msg.to, 'http://dl.profile.line.naver.jp'+str(mi.picturePath)+'/vp.small')
@@ -3685,21 +3635,7 @@ def bot(op):
                                     a = channel.getProfileCoverURL(mid=u)
                                     cl.sendImageWithURL(receiver, a)
                                 except Exception as e:
-                                    cl.sendText(receiver, str(e))
-#CLONE
-                        elif cmd.startswith("ดึง "):
-                          if 'MENTION' in msg.contentMetadata.keys()!= None:
-                                names = re.findall(r'@(\w+)', text)
-                                mention = ast.literal_eval(msg.contentMetadata['MENTION'])
-                                mentionees = mention['MENTIONEES']
-                                lists = []
-                                for mention in mentionees:
-                                    if mention["M"] not in lists:
-                                        lists.append(mention["M"])
-                                for ls in lists:
-                                    cl.cloneContactProfile(ls)
-                                    cl.sendContact(to, sender)
-                                    cl.sendMessage(to, "ดึงข้อมูลเรียบร้อย...")
+                                    cl.sendText(receiver, str(e)
 
                         elif cmd == "restoreprofile":
                             try:
@@ -3962,7 +3898,7 @@ def bot(op):
                             except:
                                 pass
 #Spamcallto
-                        elif cmd.startswith("spamcallto"):
+                        elif cmd.startswith("รันคอล"):
                           dan = text.split(" ")
                           num = int(dan[1])
 #                          ret_ = "╔══[ Call Private ]"
@@ -3982,7 +3918,7 @@ def bot(op):
                                       cl.inviteIntoGroupCall(to, contactIds=members)
 #                                 ret_ += "\n╠ @!"
 #                                ret_ += "\n╚══[ Total {} Spam call]".format(str(dan[1]))
-                                cl.sendMessage(msg.to, "Berhasil Sct ")
+                                cl.sendMessage(msg.to, "เรียบร้อย... ")
 
                         elif cmd.startswith(" "):
                           if msg._from in admin:
@@ -4660,22 +4596,22 @@ def bot(op):
                                 G = ki.getGroup(msg.to)
                                 ki.updateGroup(G)
 
-                        elif cmd == "dragon" or cmd == "dkbot":
+                        elif cmd == "dragon" or cmd == "คิก":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                start = time.time()
-                               cl.sendMessage(msg.to, "[🔰 Ⓓⓚ~ⒷⓄⓣ☯t].")
+                               cl.sendMessage(msg.to, "🇹🇭Bot Protect Thailand")
                                elapsed_time = time.time() - start
-                               ki.sendMessage(msg.to, "╚☆Ⓢⓘⓐⓟ☆╗\n╚Ⓚⓞⓜⓐⓝⓓⓝ╮╗".format(str(elapsed_time)))
-                               kk.sendMessage(msg.to, "╚☆Ⓢⓘⓐⓟ☆╗\n╚Ⓚⓞⓜⓐⓝⓓⓝ╮╗".format(str(elapsed_time)))
-                               kc.sendMessage(msg.to, "╚☆Ⓢⓘⓐⓟ☆╗\n╚Ⓚⓞⓜⓐⓝⓓⓝ╮╗".format(str(elapsed_time)))
-                               kb.sendMessage(msg.to, "╚☆Ⓢⓘⓐⓟ☆╗\n╚Ⓚⓞⓜⓐⓝⓓⓝ╮╗".format(str(elapsed_time)))
+                               ki.sendMessage(msg.to, "คิก1รายงานตัว".format(str(elapsed_time)))
+                               kk.sendMessage(msg.to, "คิก2รายงานตัว".format(str(elapsed_time)))
+                               kc.sendMessage(msg.to, "คิก3รายงานตัว".format(str(elapsed_time)))
+                               kb.sendMessage(msg.to, "คิก4รายงานตัว".format(str(elapsed_time)))
                                kd.sendMessage(msg.to, "╚☆Ⓢⓘⓐⓟ☆╗\n╚Ⓚⓞⓜⓐⓝⓓⓝ╮╗".format(str(elapsed_time)))
                                ke.sendMessage(msg.to, "╚☆Ⓢⓘⓐⓟ☆╗\n╚Ⓚⓞⓜⓐⓝⓓⓝ╮╗".format(str(elapsed_time)))
                                kf.sendMessage(msg.to, "╚☆Ⓢⓘⓐⓟ☆╗\n╚Ⓚⓞⓜⓐⓝⓓⓝ╮╗".format(str(elapsed_time)))
-                               kj.sendMessage(msg.to, "╚☆Ⓢⓘⓐⓟ☆╗\n╚Ⓚⓞⓜⓐⓝⓓⓝ╮╗".format(str(elapsed_time)))
-                               sw.sendMessage(msg.to, "[🔰ⒹⓄⓝⓔ]")
-                               cl.sendMessage(msg.to, "╚☆Ⓐⓜⓐⓝ-☆╗\n╚ⒷⓄⓈ☆╮╗")
+                               kj.sendMessage(msg.to, "ผี...รายงานตัว".format(str(elapsed_time)))
+                               sw.sendMessage(msg.to, "ผี...รายงานตัว")
+                               cl.sendMessage(msg.to, "🇹🇭Bot Protect Thailand")
 
 
                         elif cmd == "hargabot":
@@ -7200,13 +7136,13 @@ def bot(op):
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 wait["mentionKick"] = True
-                                cl.sendText(msg.to,"「 Status Notag 」\nNotag telah diaktifkan")
+                                cl.sendText(msg.to,"「 เปิดเรียบร้อย... 」\nใครแทคถูกเตะนะ")
 
                         elif cmd == "ปิดแทคเตะ" or text.lower() == 'notag off':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 wait["mentionKick"] = False
-                                cl.sendText(msg.to,"「 Status Notag 」\nNotag telah dinonaktifkan")
+                                cl.sendText(msg.to,"「 ปิดเรียบร้อย... 」\nเชิญแทคตามสบาย")
 
                         elif cmd == "contact on" or text.lower() == 'contact on':
                           if wait["selfbot"] == True:
@@ -7236,13 +7172,13 @@ def bot(op):
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 wait["autoJoin"] = True
-                                cl.sendText(msg.to,"「 Status Autojoin 」\nAutojoin telah diaktifkan")
+                                cl.sendText(msg.to,"「 🌀 」\nเปิดเรียบร้อย...")
 
                         elif cmd == "ปิดเข้า" or text.lower() == 'autojoin off':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 wait["autoJoin"] = False
-                                cl.sendText(msg.to,"「 Status Autojoin 」\nAutojoin telah dinonaktifkan")
+                                cl.sendText(msg.to,"「 🌀 」\nปิดเรียบร้อย...")
 
                         elif cmd == "autoleave on" or text.lower() == 'autoleave on':
                           if wait["selfbot"] == True:
@@ -7260,13 +7196,13 @@ def bot(op):
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 wait["autoBlock"] = True
-                                cl.sendText(msg.to,"「 Status Autoleave 」\nAutoleave telah diaktifkan")
+                                cl.sendText(msg.to,"「 🚫 」\nเปิดเรียบร้อย...")
 
                         elif cmd == "ปิดบล็อค" or text.lower() == 'autoblock off':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 wait["autoBlock"] = False
-                                cl.sendText(msg.to,"「 Status Autoleave 」\nAutoleave telah dinonaktifkan")
+                                cl.sendText(msg.to,"「 🚫 」\nปิดเรียบร้อย...")
 
                         elif cmd == "เปิดแอด" or text.lower() == 'autoadd on':
                           if wait["selfbot"] == True:
