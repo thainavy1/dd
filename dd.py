@@ -3952,7 +3952,7 @@ def bot(op):
                               jumlah = int(korban2[1])
                               if jumlah <= 1000000:
                                   for var in range(0,jumlah):
-                                      aditmadzs.sendMessage(midd, None, contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58', 'PRDTYPE': 'THEME', 'MSGTPL': '6'}, contentType=9)
+                                      cl.sendMessage(midd, None, contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58', 'PRDTYPE': 'THEME', 'MSGTPL': '6'}, contentType=9)
                                       ki.sendMessage(midd, None, contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58', 'PRDTYPE': 'THEME', 'MSGTPL': '6'}, contentType=9)
                                       kk.sendMessage(midd, None, contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58', 'PRDTYPE': 'THEME', 'MSGTPL': '6'}, contentType=9)
                                       kc.sendMessage(midd, None, contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58', 'PRDTYPE': 'THEME', 'MSGTPL': '6'}, contentType=9)
@@ -5188,7 +5188,7 @@ def bot(op):
                                elapsed_time = time.time() - start
                                cl.sendMessage(msg.to, "{} 🚀".format(str(elapsed_time)))
                                 
-                        elif cmd == "คิกสปิด" or cmd == "spbot":
+                        elif cmd == "คิกสปีด" or cmd == "spbot":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                start = time.time()
@@ -7269,7 +7269,7 @@ def bot(op):
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 settings["autoJoinTicket"] = True
-                                sendMention(msg.to, sender, "「 🌀 」\nเจ้าของ ", "\nเปิดมุดลิ้งเรียบร้อย,\nBot Protect Thailand")
+                                cl.sendMessage(msg.to,"「 🌀 」\nเปิดมุดลิ้งเรียบร้อย")
 
                         elif cmd == "ปิดมุด" or text.lower() == 'jointicket off':
                           if wait["selfbot"] == True:
