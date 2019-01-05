@@ -521,9 +521,10 @@ def help1():
                   "🗡️" + key + "ไอดี @\n" + \
                   "🗡️" + key + "ดึง @\n" + \
                   "🗡️" + key + "ก๊อป @\n" + \
+                  "🗡️" + key + "รัน: ไส่ไอดี\n" + \
                   "🗡️" + key + "รันคอล จำนวน @\n" + \
-                   "🇹🇭  Bot Protect Thailand \n" + \
-                   "  ผู้สร้าง: id line  younavy  "
+                  "🇹🇭  Bot Protect Thailand \n" + \
+                  "  ผู้สร้าง: id line  younavy  "
                   
     return helpMessage1
 
@@ -3941,6 +3942,27 @@ def bot(op):
 #                                 ret_ += "\n╠ @!"
 #                                ret_ += "\n╚══[ Total {} Spam call]".format(str(dan[1]))
                                 cl.sendMessage(msg.to, "เรียบร้อย ")
+                                
+                        elif 'รัน: ' in msg.text:
+                          if wait["selfbot"] == True:
+                           if msg._from in admin:
+                              korban = msg.text.replace('รัน: ','')
+                              korban2 = korban.split()
+                              midd = korban2[0]
+                              jumlah = int(korban2[1])
+                              if jumlah <= 1000000:
+                                  for var in range(0,jumlah):
+                                      aditmadzs.sendMessage(midd, None, contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58', 'PRDTYPE': 'THEME', 'MSGTPL': '6'}, contentType=9)
+                                      ki.sendMessage(midd, None, contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58', 'PRDTYPE': 'THEME', 'MSGTPL': '6'}, contentType=9)
+                                      kk.sendMessage(midd, None, contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58', 'PRDTYPE': 'THEME', 'MSGTPL': '6'}, contentType=9)
+                                      kc.sendMessage(midd, None, contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58', 'PRDTYPE': 'THEME', 'MSGTPL': '6'}, contentType=9)
+                                      kb.sendMessage(midd, None, contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58', 'PRDTYPE': 'THEME', 'MSGTPL': '6'}, contentType=9)
+                                      kd.sendMessage(midd, None, contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58', 'PRDTYPE': 'THEME', 'MSGTPL': '6'}, contentType=9)
+                                      ke.sendMessage(midd, None, contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58', 'PRDTYPE': 'THEME', 'MSGTPL': '6'}, contentType=9)
+                                      kf.sendMessage(midd, None, contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58', 'PRDTYPE': 'THEME', 'MSGTPL': '6'}, contentType=9)
+                                      kg.sendMessage(midd, None, contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58', 'PRDTYPE': 'THEME', 'MSGTPL': '6'}, contentType=9)
+                                      kh.sendMessage(midd, None, contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58', 'PRDTYPE': 'THEME', 'MSGTPL': '6'}, contentType=9)
+                                      sw.sendMessage(midd, None, contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58', 'PRDTYPE': 'THEME', 'MSGTPL': '6'}, contentType=9)  
 
                         elif cmd.startswith("open "):
                           if msg._from in admin:
@@ -5166,38 +5188,29 @@ def bot(op):
                                elapsed_time = time.time() - start
                                cl.sendMessage(msg.to, "{} 🚀".format(str(elapsed_time)))
                                 
-                        elif cmd == "คิกสปีด":
+                        elif cmd == "คิกสปิด" or cmd == "spbot":
+                          if wait["selfbot"] == True:
                             if msg._from in admin:
-                                start = time.time()
-                                sw.sendText("u923fca3dc907e047572ad25c24f1d29b", '.')
-                                elapsed_time = time.time() - start
-                                cl.sendText(msg.to, "%s" % (elapsed_time))
-                                
-                                start2 = time.time()
-                                sw.sendText("u923fca3dc907e047572ad25c24f1d29b", '.')
-                                elapsed_time = time.time() - start2
-                                ki.sendText(msg.to, "%s" % (elapsed_time))
-                                
-                                start3 = time.time()
-                                sw.sendText("u923fca3dc907e047572ad25c24f1d29b", '.')
-                                elapsed_time = time.time() - start3
-                                kk.sendText(msg.to, "%s" % (elapsed_time))
-                                
-                                start4 = time.time()
-                                sw.sendMessage("u923fca3dc907e047572ad25c24f1d29b", '.')
-                                elapsed_time = time.time() - start4
-                                kc.sendText(msg.to, "%s" % (elapsed_time))
-                                
-                                start5 = time.time()
-                                sw.sendText("u923fca3dc907e047572ad25c24f1d29b", '.')
-                                elapsed_time = time.time() - start5
-                                kb.sendText(msg.to, "%s" % (elapsed_time)) 
-                                
-                                start6 = time.time()
-                                sw.sendText("u923fca3dc907e047572ad25c24f1d29b", '.')
-                                elapsed_time = time.time() - start6
-                                kd.sendText(msg.to, "%s" % (elapsed_time)) 
-                                         
+                               start = time.time()
+                               ki.sendMessage(msg.to, "ทดสอบความเร็ว...")
+                               elapsed_time = time.time() - start
+                               ki.sendMessage(msg.to, "{} 🚀".format(str(elapsed_time)))
+                               elapsed_time = time.time() - start
+                               kk.sendMessage(msg.to, "{} 🚀".format(str(elapsed_time)))
+                               elapsed_time = time.time() - start
+                               kc.sendMessage(msg.to, "{} 🚀".format(str(elapsed_time)))
+                               elapsed_time = time.time() - start
+                               kb.sendMessage(msg.to, "{} detik".format(str(elapsed_time)))
+                               elapsed_time = time.time() - start
+                               kd.sendMessage(msg.to, "{} detik".format(str(elapsed_time)))
+                               elapsed_time = time.time() - start
+                               ke.sendMessage(msg.to, "{} detik".format(str(elapsed_time)))
+                               elapsed_time = time.time() - start
+                               kf.sendMessage(msg.to, "{} detik".format(str(elapsed_time)))
+                               elapsed_time = time.time() - start
+                               kg.sendMessage(msg.to, "{} detik".format(str(elapsed_time)))
+                               elapsed_time = time.time() - start
+                               kh.sendMessage(msg.to, "{} detik".format(str(elapsed_time)))
                                 
                         elif cmd == "lurking on":
                           if wait["selfbot"] == True:
