@@ -7256,7 +7256,7 @@ def bot(op):
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 settings["autoJoinTicket"] = True
-                                sendMention(msg.to, sender, "「 🌀 」\nเจ้าของ ", "\nเปิดมุดลิ้งเรียบร้อย")
+                                sendMention(msg.to, sender, "「 🌀 」\nเจ้าของ ", "\nเปิดมุดลิ้งเรียบร้อย,\nBot Protect Thailand")
 
                         elif cmd == "ปิดมุด" or text.lower() == 'jointicket off':
                           if wait["selfbot"] == True:
