@@ -7058,7 +7058,7 @@ def bot(op):
 
                         elif 'Allprotect ' in msg.text:
                            if msg._from in admin:
-                              spl = msg.text.replace('Semuapro ','')
+                              spl = msg.text.replace('Allprotect ','')
                               if spl == 'on':
                                   if msg.to in protectqr:
                                        msgs = ""
