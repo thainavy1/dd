@@ -502,8 +502,8 @@ def help():
                   "🗡️" + key + "Protectjoin on\off\n" + \
                   "🗡️" + key + "Protectinvite on\off\n" + \
                   "🗡️" + key + "Protecturl on\off\n" + \
-                  "🗡️" + key + "Ghost on\off\n" + \
-                  "🗡️" + key + "Allprotect on\off\n" + \
+                  "🗡️" + key + "ผี เปิด\ปิด\n" + \
+                  "🗡️" + key + "กันหมด เปิด\ปิด\n" + \
                   "🗡️" + key + "Antijs on\n" + \
                   "🇹🇭Bot Protect Thailand"
 
@@ -609,7 +609,7 @@ def bot(op):
                         kj.acceptGroupInvitationByTicket(op.param1,Ticket)
                         random.choice(GHOST).kickoutFromGroup(op.param1,[op.param2])
                         wait["blacklist"][op.param2] = True
-                        sw.sendMessage(op.param1,"Wah kiker tempe main kick orang minta di hajar")
+                        sw.sendMessage(op.param1,"บอกแล้วอย่าเล่นลิ้ง จุงละสิมึง")
                         sw.leaveGroup(op.param1)
                         kj.leaveGroup(op.param1)
                         X = cl.getGroup(op.param1)
@@ -627,7 +627,7 @@ def bot(op):
                             kj.acceptGroupInvitationByTicket(op.param1,Ticket)
                             random.choice(GHOST).kickoutFromGroup(op.param1,[op.param2])
                             wait["blacklist"][op.param2] = True
-                            sw.sendMessage(op.param1,"Wah kiker tempe main kick orang minta di hajar")
+                            sw.sendMessage(op.param1,"บอกแล้วอย่าเล่นลิ้ง จุงละสิมึง")
                             sw.leaveGroup(op.param1)
                             kj.leaveGroup(op.param1)
                             X = ki.getGroup(op.param1)
@@ -645,7 +645,7 @@ def bot(op):
                                 kj.acceptGroupInvitationByTicket(op.param1,Ticket)
                                 random.choice(GHOST).kickoutFromGroup(op.param1,[op.param2])
                                 wait["blacklist"][op.param2] = True
-                                sw.sendMessage(op.param1,"Wah kiker tempe main kick orang minta di hajar")
+                                sw.sendMessage(op.param1,"บอกแล้วอย่าเล่นลิ้ง จุงละสิมึง")
                                 sw.leaveGroup(op.param1)
                                 kj.leaveGroup(op.param1)
                                 X = kk.getGroup(op.param1)
@@ -663,7 +663,7 @@ def bot(op):
                                     kj.acceptGroupInvitationByTicket(op.param1,Ticket)
                                     random.choice(GHOST).kickoutFromGroup(op.param1,[op.param2])
                                     wait["blacklist"][op.param2] = True
-                                    sw.sendMessage(op.param1,"Wah kiker tempe main kick orang minta di hajar")
+                                    sw.sendMessage(op.param1,"บอกแล้วอย่าเล่นลิ้ง จุงละสิมึง")
                                     sw.leaveGroup(op.param1)
                                     kj.leaveGroup(op.param1)
                                     X = kc.getGroup(op.param1)
@@ -681,7 +681,7 @@ def bot(op):
                                         kj.acceptGroupInvitationByTicket(op.param1,Ticket)
                                         random.choice(GHOST).kickoutFromGroup(op.param1,[op.param2])
                                         wait["blacklist"][op.param2] = True
-                                        sw.sendMessage(op.param1,"Wah kiker tempe main kick orang minta di hajar")
+                                        sw.sendMessage(op.param1,"บอกแล้วอย่าเล่นลิ้ง จุงละสิมึง")
                                         sw.leaveGroup(op.param1)
                                         kj.leaveGroup(op.param1)
                                         X = kb.getGroup(op.param1)
@@ -699,7 +699,7 @@ def bot(op):
                                             kj.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             random.choice(GHOST).kickoutFromGroup(op.param1,[op.param2])
                                             wait["blacklist"][op.param2] = True
-                                            sw.sendMessage(op.param1,"Terdeteksi Kicker,Maaf anda melangar")
+                                            sw.sendMessage(op.param1,"บอกแล้วอย่าเล่นลิ้ง จุงละสิมึง")
                                             sw.leaveGroup(op.param1)
                                             kj.leaveGroup(op.param1)
                                             X = kd.getGroup(op.param1)
@@ -717,7 +717,7 @@ def bot(op):
                                                 kj.acceptGroupInvitationByTicket(op.param1,Ticket)
                                                 random.choice(GHOST).kickoutFromGroup(op.param1,[op.param2])
                                                 wait["blacklist"][op.param2] = True
-                                                sw.sendMessage(op.param1,"Terdeteksi kicker\nMaaf anda mepanggar")
+                                                sw.sendMessage(op.param1,"บอกแล้วอย่าเล่นลิ้ง จุงละสิมึง")
                                                 sw.leaveGroup(op.param1)
                                                 kj.leaveGroup(op.param1)
                                                 X = ke.getGroup(op.param1)
@@ -735,7 +735,7 @@ def bot(op):
                                                     kj.acceptGroupInvitationByTicket(op.param1,Ticket)
                                                     random.choice(GHOST).kickoutFromGroup(op.param1,[op.param2])
                                                     wait["blacklist"][op.param2] = True
-                                                    sw.sendMessage(op.param1,"Wah kiker tempe main kick orang minta di hajar")
+                                                    sw.sendMessage(op.param1,"บอกแล้วอย่าเล่นลิ้ง จุงละสิมึง")
                                                     sw.leaveGroup(op.param1)
                                                     kj.leaveGroup(op.param1)
                                                     X = kf.getGroup(op.param1)
@@ -753,7 +753,7 @@ def bot(op):
                                                         kj.acceptGroupInvitationByTicket(op.param1,Ticket)
                                                         random.choice(GHOST).kickoutFromGroup(op.param1,[op.param2])
                                                         wait["blacklist"][op.param2] = True
-                                                        sw.sendMessage(op.param1,"Wah kiker tempe main kick orang minta di hajar")
+                                                        sw.sendMessage(op.param1,"บอกแล้วอย่าเล่นลิ้ง จุงละสิมึง")
                                                         sw.leaveGroup(op.param1)
                                                         kj.leaveGroup(op.param1)
                                                         X = ki.getGroup(op.param1)
@@ -771,7 +771,7 @@ def bot(op):
                                                             kj.acceptGroupInvitationByTicket(op.param1,Ticket)
                                                             random.choice(GHOST).kickoutFromGroup(op.param1,[op.param2])
                                                             wait["blacklist"][op.param2] = True
-                                                            sw.sendMessage(op.param1,"Wah kiker tempe main kick orang minta di hajar")
+                                                            sw.sendMessage(op.param1,"บอกแล้วอย่าเล่นลิ้ง จุงละสิมึง")
                                                             sw.leaveGroup(op.param1)
                                                             kj.leaveGroup(op.param1)
                                                             X = kh.getGroup(op.param1)
@@ -779,7 +779,7 @@ def bot(op):
                                                             kh.updateGroup(X)     
                                                     except:
                                                         pass                 
-    if op.type == 13:
+        if op.type == 13:
             if mid in op.param3:
                 if wait["autoLeave"] == True:
                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
@@ -1084,7 +1084,7 @@ def bot(op):
                         kj.acceptGroupInvitationByTicket(op.param1,Ticket)
                         random.choice(GHOST).kickoutFromGroup(op.param1,[op.param2])
                         wait["blacklist"][op.param2] = True
-                        sw.sendMessage(op.param1,"Wah kiker tempe main kick orang minta di hajar")
+                        sw.sendMessage(op.param1,"เป็นไงละมึง เชิญมัวก็ต้องจุงสินะ")
                         sw.leaveGroup(op.param1)
                         kj.leaveGroup(op.param1)
                         X = cl.getGroup(op.param1)
@@ -1102,7 +1102,7 @@ def bot(op):
                             kj.acceptGroupInvitationByTicket(op.param1,Ticket)
                             random.choice(GHOST).kickoutFromGroup(op.param1,[op.param2])
                             wait["blacklist"][op.param2] = True
-                            sw.sendMessage(op.param1,"Wah kiker tempe main kick orang minta di hajar")
+                            sw.sendMessage(op.param1,"เป็นไงละมึง เชิญมัวก็ต้องจุงสินะ")
                             sw.leaveGroup(op.param1)
                             kj.leaveGroup(op.param1)
                             X = ki.getGroup(op.param1)
@@ -1120,7 +1120,7 @@ def bot(op):
                                 kj.acceptGroupInvitationByTicket(op.param1,Ticket)
                                 random.choice(GHOST).kickoutFromGroup(op.param1,[op.param2])
                                 wait["blacklist"][op.param2] = True
-                                sw.sendMessage(op.param1,"Wah kiker tempe main kick orang minta di hajar")
+                                sw.sendMessage(op.param1,"เป็นไงละมึง เชิญมัวก็ต้องจุงสินะ")
                                 sw.leaveGroup(op.param1)
                                 kj.leaveGroup(op.param1)
                                 X = kk.getGroup(op.param1)
@@ -1138,7 +1138,7 @@ def bot(op):
                                     kj.acceptGroupInvitationByTicket(op.param1,Ticket)
                                     random.choice(GHOST).kickoutFromGroup(op.param1,[op.param2])
                                     wait["blacklist"][op.param2] = True
-                                    sw.sendMessage(op.param1,"Wah kiker tempe main kick orang minta di hajar")
+                                    sw.sendMessage(op.param1,"เป็นไงละมึง เชิญมัวก็ต้องจุงสินะ")
                                     sw.leaveGroup(op.param1)
                                     kj.leaveGroup(op.param1)
                                     X = kc.getGroup(op.param1)
@@ -1156,7 +1156,7 @@ def bot(op):
                                         kj.acceptGroupInvitationByTicket(op.param1,Ticket)
                                         random.choice(GHOST).kickoutFromGroup(op.param1,[op.param2])
                                         wait["blacklist"][op.param2] = True
-                                        sw.sendMessage(op.param1,"Wah kiker tempe main kick orang minta di hajar")
+                                        sw.sendMessage(op.param1,"เป็นไงละมึง เชิญมัวก็ต้องจุงสินะ")
                                         sw.leaveGroup(op.param1)
                                         kj.leaveGroup(op.param1)
                                         X = kb.getGroup(op.param1)
@@ -1174,7 +1174,7 @@ def bot(op):
                                             kj.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             random.choice(GHOST).kickoutFromGroup(op.param1,[op.param2])
                                             wait["blacklist"][op.param2] = True
-                                            sw.sendMessage(op.param1,"Terdeteksi Kicker,Maaf anda melangar")
+                                            sw.sendMessage(op.param1,"เป็นไงละมึง เชิญมัวก็ต้องจุงสินะ")
                                             sw.leaveGroup(op.param1)
                                             kj.leaveGroup(op.param1)
                                             X = kd.getGroup(op.param1)
@@ -1192,7 +1192,7 @@ def bot(op):
                                                 kj.acceptGroupInvitationByTicket(op.param1,Ticket)
                                                 random.choice(GHOST).kickoutFromGroup(op.param1,[op.param2])
                                                 wait["blacklist"][op.param2] = True
-                                                sw.sendMessage(op.param1,"Terdeteksi kicker\nMaaf anda mepanggar")
+                                                sw.sendMessage(op.param1,"เป็นไงละมึง เชิญมัวก็ต้องจุงสินะ")
                                                 sw.leaveGroup(op.param1)
                                                 kj.leaveGroup(op.param1)
                                                 X = ke.getGroup(op.param1)
@@ -1210,7 +1210,7 @@ def bot(op):
                                                     kj.acceptGroupInvitationByTicket(op.param1,Ticket)
                                                     random.choice(GHOST).kickoutFromGroup(op.param1,[op.param2])
                                                     wait["blacklist"][op.param2] = True
-                                                    sw.sendMessage(op.param1,"Wah kiker tempe main kick orang minta di hajar")
+                                                    sw.sendMessage(op.param1,"เป็นไงละมึง เชิญมัวก็ต้องจุงสินะ")
                                                     sw.leaveGroup(op.param1)
                                                     kj.leaveGroup(op.param1)
                                                     X = kf.getGroup(op.param1)
@@ -1228,7 +1228,7 @@ def bot(op):
                                                         kj.acceptGroupInvitationByTicket(op.param1,Ticket)
                                                         random.choice(GHOST).kickoutFromGroup(op.param1,[op.param2])
                                                         wait["blacklist"][op.param2] = True
-                                                        sw.sendMessage(op.param1,"Wah kiker tempe main kick orang minta di hajar")
+                                                        sw.sendMessage(op.param1,"เป็นไงละมึง เชิญมัวก็ต้องจุงสินะ")
                                                         sw.leaveGroup(op.param1)
                                                         kj.leaveGroup(op.param1)
                                                         X = ki.getGroup(op.param1)
@@ -1246,7 +1246,7 @@ def bot(op):
                                                             kj.acceptGroupInvitationByTicket(op.param1,Ticket)
                                                             random.choice(GHOST).kickoutFromGroup(op.param1,[op.param2])
                                                             wait["blacklist"][op.param2] = True
-                                                            sw.sendMessage(op.param1,"Wah kiker tempe main kick orang minta di hajar")
+                                                            sw.sendMessage(op.param1,"เป็นไงละมึง เชิญมัวก็ต้องจุงสินะ")
                                                             sw.leaveGroup(op.param1)
                                                             kj.leaveGroup(op.param1)
                                                             X = kh.getGroup(op.param1)
@@ -6901,25 +6901,25 @@ def bot(op):
                                          msgs = "Anti JS Sudah Tidak Aktif"
                                     cl.sendMessage(msg.to, "「Dinonaktifkan」\n" + msgs)
                                     
-                        elif 'Ghost ' in msg.text:
+                        elif 'ผี ' in msg.text:
                            if msg._from in admin:
-                              spl = msg.text.replace('Ghost ','')
-                              if spl == 'on':
+                              spl = msg.text.replace('ผี ','')
+                              if spl == 'เปิด':
                                   if msg.to in ghost:
                                        msgs = "Ghost sudah aktif"
                                   else:
                                        ghost.append(msg.to)
                                        ginfo = cl.getGroup(msg.to)
-                                       msgs = "Ghost Diaktifkan\nDi Group : " +str(ginfo.name)
-                                  cl.sendMessage(msg.to, "「Diaktifkan」\n" + msgs)
-                              elif spl == 'off':
+                                       msgs = "เปิดระบบเรียบร้อย\nกลุ่ม : " +str(ginfo.name)
+                                  cl.sendMessage(msg.to, "「เปิดระบบผี」\n" + msgs)
+                              elif spl == 'ปิด':
                                     if msg.to in ghost:
                                          ghost.remove(msg.to)
                                          ginfo = cl.getGroup(msg.to)
-                                         msgs = "Ghost Dinonaktifkan\nDi Group : " +str(ginfo.name)
+                                         msgs = "ปิดระบบเรียบร้อย\nกลุ่ม : " +str(ginfo.name)
                                     else:
                                          msgs = "Ghost Sudah Tidak Aktif"
-                                    cl.sendMessage(msg.to, "「Dinonaktifkan」\n" + msgs)
+                                    cl.sendMessage(msg.to, "「ปิดระบบผี」\n" + msgs)
 #=========== [ Add Image ] ============#
                         elif cmd.startswith("addimg "):
                           if msg._from in admin:
@@ -7288,10 +7288,10 @@ def bot(op):
                                          msgs = "Protect invite sudah tidak aktif"
                                     cl.sendMessage(msg.to, "「 Status Protect Invite 」\n" + msgs)
 
-                        elif 'Allprotect ' in msg.text:
+                        elif 'กันหมด ' in msg.text:
                            if msg._from in admin:
-                              spl = msg.text.replace('Allprotect ','')
-                              if spl == 'on':
+                              spl = msg.text.replace('กันหมด ','')
+                              if spl == 'เปิด':
                                   if msg.to in protectqr:
                                        msgs = ""
                                   else:
@@ -7306,15 +7306,15 @@ def bot(op):
                                       protectinvite.append(msg.to)
                                   if msg.to in protectcancel:
                                       ginfo = cl.getGroup(msg.to)
-                                      msgs = "Status : [ ON ]\nDi Group : " +str(ginfo.name)
-                                      msgs += "\nSemua sudah diaktifkan"
+                                      msgs = "สถานะ : [ เปิด ]\nกลุ่ม : " +str(ginfo.name)
+                                      msgs += "\nเปิดระบบเรียบร้อย..."
                                   else:
                                       protectcancel.append(msg.to)
                                       ginfo = cl.getGroup(msg.to)
-                                      msgs = "Status : [ ON ]\nDi Group : " +str(ginfo.name)
-                                      msgs += "\nSemua protection diaktifkan"
-                                  cl.sendMessage(msg.to, "「 Status Protection 」\n" + msgs)
-                              elif spl == 'off':
+                                      msgs = "สถานะ : [ เปิด ]\nกลุ่ม : " +str(ginfo.name)
+                                      msgs += "\nเปิดระบบเรียบร้อย..."
+                                  cl.sendMessage(msg.to, "「 ระบบป้องกันทั้งหมด 」\n" + msgs)
+                              elif spl == 'ปิด':
                                     if msg.to in protectqr:
                                          protectqr.remove(msg.to)
                                     else:
@@ -7330,13 +7330,13 @@ def bot(op):
                                     if msg.to in protectcancel:
                                          protectcancel.remove(msg.to)
                                          ginfo = cl.getGroup(msg.to)
-                                         msgs = "Status : [ OFF ]\nDi Group : " +str(ginfo.name)
-                                         msgs += "\nSemua protection dimatikan"
+                                         msgs = "สถานะ : [ ปิด ]\nกลุ่ม : " +str(ginfo.name)
+                                         msgs += "\nปิดระบบเรียบร้อย..."
                                     else:
                                          ginfo = cl.getGroup(msg.to)
-                                         msgs = "Status : [ OFF ]\nDi Group : " +str(ginfo.name)
-                                         msgs += "\nSemua protection dimatikan"
-                                    cl.sendMessage(msg.to, "「 Status Protection 」\n" + msgs)
+                                         msgs = "สถานะ : [ ปิด ]\nกลุ่ม : " +str(ginfo.name)
+                                         msgs += "\nปิดระบบเรียบร้อย..."
+                                    cl.sendMessage(msg.to, "「 ระบบป้องกันทั้งหมด 」\n" + msgs)
 
 #===========COMMAND ON OFF============#
                         elif cmd == "spaminvite on":
