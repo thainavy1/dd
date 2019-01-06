@@ -231,7 +231,7 @@ wait = {
     "welcome":"รεℓαɱαт ∂αтαɳɠ \nɓµ∂αყαҡαɳ ૮εҡ ɳσтε.\nรεɱoga jadi kawan baik\namin",
     "leave":"Slamat tinggal sobat\nsmoga ktmu di lain hari nanti",
     "comment":" ──────┅❇͜͡❇͜͡☆͜͡❇͜͡❇┅──────\nᴼᴾᴱᴺ ᴼᴿᴰᴱᴿ\n────────┅┅───────\n➣ꜱᴇʟꜰʙᴏᴛ ᴏɴʟʏ\n➣ꜱᴇʟꜰʙᴏᴛ + ᴀꜱɪꜱᴛ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ + 2 ᴀꜱɪꜱᴛ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ + 3 ᴀꜱɪꜱᴛ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ + 4 ᴀꜱɪꜱᴛ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ + 5 ᴀꜱɪꜱᴛ\n➣ʙᴏᴛᴘʀᴏᴛᴇᴄᴛ 3-11 ʙᴏᴛ ᴀꜱɪꜱᴛ\n➣ɴᴇᴡ ꜱᴄʀɪᴘᴛ\n➣ʜʀɢᴀ ʙɪꜱᴀ ɴᴇɢᴏ\n─────────┅┅─────────\n  ✯❇͜͡❇͜͡C͜͡r͜͡e͜͡a͜͡t͜͡o͜͡r✯͜͡$͜͡ë͜͡I͜͡F͜͡-͜͡฿͜͜͡͡o͜͡t͜͡ ͜͡❇͜͡❇✯\nline.me/ti/p/~reza.p.i.p\nline.me/ti/p/~reza.p.i.p\n➣ѕєʟғвот κɪcκєʀ_+_ᴘʀᴏᴛᴇᴄᴛ\n────────┅❇͜͡❇͜͡☆͜͡❇͜͡❇┅────────",
-    "message":"Terimɑ Kɑsih yɑ....\nUdɑh Menɑmbɑhkɑn Sɑyɑ Sebɑgɑi Temɑn ɑndɑ.\nSemogɑ Kitɑ Bisɑ Jɑlin Silɑturɑhmi Dengɑn Bɑik.\n\nвστ вy:dzulkifli",
+    "message":"🇹🇭Bot Protect Thailand \nby: You...\nfackbook: วัชรพล คงเพ็ชรดิษ\nid line younavy\nรับแก้ไฟล์บอททุกประเภท\nรับเพิ่มระบบต่างๆในไฟล์บอท",
 }
 read = {
     "readPoint":{},
@@ -286,13 +286,13 @@ def waktu(secs):
     mins, secs = divmod(secs,60)
     hours, mins = divmod(mins,60)
     days, hours = divmod(hours, 24)
-    return '%02d Hari %02d Jam %02d Menit %02d Detik' % (days, hours, mins, secs)
+    return '%02d วัน %02d ชั่วโมง %02d นาที %02d วินาที' % (days, hours, mins, secs)
 
 def runtime(secs):
     mins, secs = divmod(secs,60)
     hours, mins = divmod(mins,60)
     days, hours = divmod(hours, 24)
-    return '%02d Hari %02d Jam %02d Menit %02d Detik' % (days, hours, mins, secs)
+    return '%02d วัน %02d ชั่วโมง %02d นาที %02d วินาที' % (days, hours, mins, secs)
 
 def mentionMembers(to, mid):
     try:
@@ -798,44 +798,44 @@ def bot(op):
                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
                         cl.acceptGroupInvitation(op.param1)
                         ginfo = cl.getGroup(op.param1)
-                        cl.sendMessage(op.param1,"Haii " +str(ginfo.name))
+                        cl.sendMessage(op.param1,"หวัดดี " +str(ginfo.name))
                     else:
                         cl.acceptGroupInvitation(op.param1)
                         ginfo = cl.getGroup(op.param1)
-                        cl.sendMessage(op.param1,"Haii " + str(ginfo.name))
+                        cl.sendMessage(op.param1,"หวัดดี " + str(ginfo.name))
             if Amid in op.param3:
                 if wait["autoJoin"] == True:
                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
                         ki.acceptGroupInvitation(op.param1)
                         ginfo = ki.getGroup(op.param1)
-                        ki.sendMessage(op.param1,"Selamat Tinggal\n Group " +str(ginfo.name))
+                        ki.sendMessage(op.param1,"กลุ่มไรวะ\n กลุ่ม " +str(ginfo.name))
                         ki.leaveGroup(op.param1)
                     else:
                         ki.acceptGroupInvitation(op.param1)
                         ginfo = ki.getGroup(op.param1)
-                        ki.sendMessage(op.param1,"Hai " + str(ginfo.name))
+                        ki.sendMessage(op.param1,"หวัดดี " + str(ginfo.name))
             if Bmid in op.param3:
                 if wait["autoJoin"] == True:
                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
                         kk.acceptGroupInvitation(op.param1)
                         ginfo = kk.getGroup(op.param1)
-                        ki.sendMessage(op.param1,"Selamat Tinggal\n Group " +str(ginfo.name))
+                        ki.sendMessage(op.param1,"กลุ่มไรวะ\n กลุ่ม " +str(ginfo.name))
                         kk.leaveGroup(op.param1)
                     else:
                         kk.acceptGroupInvitation(op.param1)
                         ginfo = kk.getGroup(op.param1)
-                        kk.sendMessage(op.param1,"Hai " + str(ginfo.name))
+                        kk.sendMessage(op.param1,"หวัดดี " + str(ginfo.name))
             if Cmid in op.param3:
                 if wait["autoJoin"] == True:
                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
                         kc.acceptGroupInvitation(op.param1)
                         ginfo = kc.getGroup(op.param1)
-                        kc.sendMessage(op.param1,"Selamat Tinggal\n Group " +str(ginfo.name))
+                        kc.sendMessage(op.param1,"กลุ่มไรวะ\n กลุ่ม " +str(ginfo.name))
                         kc.leaveGroup(op.param1)
                     else:
                         kc.acceptGroupInvitation(op.param1)
                         ginfo = kc.getGroup(op.param1)
-                        kc.sendMessage(op.param1,"Hai " + str(ginfo.name))
+                        kc.sendMessage(op.param1,"หวัดดี " + str(ginfo.name))
             if Dmid in op.param3:
                 if wait["autoJoin"] == True:
                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
@@ -3693,11 +3693,11 @@ def bot(op):
                             if msg._from in admin:
                                 tz = pytz.timezone("Asia/Jakarta")
                                 timeNow = datetime.now(tz=tz)
-                                md = "\n       「🔑STATUS🔑」\n"
-                                if wait["stickerOn"] == True: md+="「🔑」 Sticker「ON」📲\n"
-                                else: md+="「🔑」 Sticker「OFF」📵\n"
-                                if wait["contact"] == True: md+="「🔑」 Contact「ON」📲\n"
-                                else: md+="「🔑」 Contact「OFF」📵\n"
+                                md = "\n       「ระบบต่างๆ」\n"
+                                if wait["stickerOn"] == True: md+=" • สติ้กเกอร์「เปิด」📲\n"
+                                else: md+=" • สติ้กเกอร์「ปิด」📵\n"
+                                if wait["contact"] == True: md+=" • คอนแทค「เปิด」📲\n"
+                                else: md+=" • คอนแทค「ปิด」📵\n"
                                 if wait["talkban"] == True: md+="「🔑」 Talkban「ON」📲\n"
                                 else: md+="「🔑」 Talkban「OFF」📵\n"
                                 if wait["unsend"] == True: md+="「🔑」 Unsend「ON」📲\n"
@@ -6441,11 +6441,11 @@ def bot(op):
                                 invsend = 0
                                 Ticket = cl.reissueGroupTicket(msg.to)
                                 ki.acceptGroupInvitationByTicket(msg.to,Ticket)
-                                ki.sendMessage(msg.to, "Salken all "+str(G.name))
+                                ki.sendMessage(msg.to, "มาแล้วจ๊ะ "+str(G.name))
                                 kk.acceptGroupInvitationByTicket(msg.to,Ticket)
-                                kk.sendMessage(msg.to, "Salken all "+str(G.name))
+                                kk.sendMessage(msg.to, "มาแล้วจ๊ะ "+str(G.name))
                                 kc.acceptGroupInvitationByTicket(msg.to,Ticket)
-                                kc.sendMessage(msg.to, "Salken all "+str(G.name))
+                                kc.sendMessage(msg.to, "มาแล้วจ๊ะ "+str(G.name))
                                 kb.acceptGroupInvitationByTicket(msg.to,Ticket)
                                 kb.sendMessage(msg.to, "Salken all "+str(G.name))
                                 kd.acceptGroupInvitationByTicket(msg.to,Ticket)
@@ -6462,11 +6462,11 @@ def bot(op):
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
-                                ki.sendMessage(msg.to, "Good bye "+str(G.name))
+                                ki.sendMessage(msg.to, "ไปแล้วจ๊ะ "+str(G.name))
                                 ki.leaveGroup(msg.to)
-                                kk.sendMessage(msg.to, "Good bye "+str(G.name))
+                                kk.sendMessage(msg.to, "ไปแล้วจ๊ะ "+str(G.name))
                                 kk.leaveGroup(msg.to)
-                                kc.sendMessage(msg.to, "Good bye "+str(G.name))
+                                kc.sendMessage(msg.to, "ไปแล้วจ๊ะ "+str(G.name))
                                 kc.leaveGroup(msg.to)
                                 kb.sendMessage(msg.to, "Good bye "+str(G.name))
                                 kb.leaveGroup(msg.to)
@@ -6878,8 +6878,8 @@ def bot(op):
                               kd.sendMessage(msg.to,"Sukses membersihkan " +mc)
                               ke.sendMessage(msg.to,"Sukses membersihkan " +mc)
                               kf.sendMessage(msg.to,"Sukses membersihkan " +mc)
-                              kj.sendMessage(msg.to,"Sukses membersihkan " +mc)
-                              sw.sendMessage(msg.to,"Sukses membersihkan " +mc)
+                              kj.sendMessage(msg.to,"ล้างดำเรียบร้อย " +mc)
+                              sw.sendMessage(msg.to,"ล้างดำเรียบร้อย " +mc)
 
                         elif 'Antijs ' in msg.text:
                            if msg._from in admin:
